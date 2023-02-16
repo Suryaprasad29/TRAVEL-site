@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Travel-site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "./Resources/css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "./Resources/css/utility.css">
+        <link rel = "stylesheet" href = "./Resources/css/style.css">
+        <link rel = "stylesheet" href = "./Resources/css/responsive.css">
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Travel<span>Site</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "item-form.html" class = "nav-link">upload</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "Registration.html" class = "nav-link">registration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Gallery</h1>
+                    <p>photographs of popular tourist attractions, natural landscapes, local culture, and street scenes. They can also include pictures of accommodation options, such as hotels and vacation rentals, as well as pictures of local cuisine and other aspects of daily life.</p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- gallery section -->
+        <div id = "gallery" class = "py-4">
+            <div class = "container">
+                <div class = "gallery-row">
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-1.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-2.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-3.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-4.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-5.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-6.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-7.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-8.jpg" alt = "gallery img">
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "../Resources/Images/gallery-9.jpg" alt = "gallery img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of gallery section -->
+        <!-- popular places section -->
+        <section id = "popular" class = "py-4">
+            <div class = "title-wrap">
+                <span class = "sm-title">know about some coo destination</span>
+                <h2 class = "lg-title">Popular Places</h2>
+            </div>
+
+            <div class = "popular-row">
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/popular-1.jpg" alt = "">
+                    <div>
+                        <span>Eiffel Tower, Paris</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">The Eiffel Tower has become a symbol of Paris and France and is one of the most recognizable landmarks in the world. It is a must-see for visitors to Paris, and is considered as one of the most romantic place in the world.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/popular-2.jpg" alt = "">
+                    <div>
+                        <span>Machu Picchu, Peru</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Machu Picchu is considered a sacred place by the local people and is also considered as one of the new seven wonders of the world, it offers an incredible mix of architectural, natural and cultural beauty, as well as a glimpse into the mysterious and sophisticated Inca civilization.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/gallery-3.jpg" alt = "">
+                    <div>
+                        <span>Acropolis, Athens</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">The Acropolis is situated on a high hill in the center of Athens and offers stunning views of the city and the surrounding area. The citadel is made up of several ancient buildings, monuments, and ruins, all of which are well-preserved and offer a glimpse into the ancient past.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/gallery-4.jpg" alt = "">
+                    <div>
+                        <span>Bali, Indonesia</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Bali is also home to many ancient temples and religious sites, including the iconic Uluwatu Temple, which sits on a cliff above the ocean and offers stunning views. The island also has many traditional villages, such as Ubud, which are known for their arts, crafts, and dances.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/gallery-5.jpg" alt = "">
+                    <div>
+                        <span>Dubai, United Arab Emirates</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Dubai is a city located in the United Arab Emirates, known for its modern architecture, luxury shopping, and vibrant nightlife. It is the most populous city in the UAE and a major global business and tourism destination.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/gallery-6.jpg" alt = "">
+                    <div>
+                        <span>Bhutan</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Bhutan is a small, landlocked country located in the Eastern Himalayas, known for its stunning natural beauty, rich culture, and commitment to preserving its traditional way of life. It is often referred to as the "Land of the Thunder Dragon" and is known for its policy of Gross National Happiness, which aims to balance economic development with the preservation of culture and the environment.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/popular-7.jpg" alt = "">
+                    <div>
+                        <span>Havana, Cuba</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Havana is the capital and largest city of Cuba, known for its rich history, vibrant culture, and colonial architecture. The city is located on the northwest coast of the island, and it's considered as one of the most significant and recognizable cities in the Caribbean.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "../Resources/Images/popular-8.jpg" alt = "">
+                    <div>
+                        <span>Moskva, Russia</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Moscow is the capital and largest city of Russia, known for its rich history, stunning architecture, and cultural heritage. It is the political, economic, and cultural center of the country and one of the most populous cities in Europe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of popular places section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Travel<span>Site</span>
+                    </a>
+                    <p class = "text">A travel blog is a website that features personal experiences, tips, and recommendations about traveling to different destinations, It includes articles, photos, videos and other multimedia content that can inspire and inform readers about the world.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src="./Resources/js/index.js"></script>
+        <script src="./Resources/js/itemsController.js"></script>
+        <script src = "./Resources/js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Travel-site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "./Resources/css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "./Resources/css/utility.css">
+        <link rel = "stylesheet" href = "./Resources/css/style.css">
+        <link rel="stylesheet" href="./Resources/css/style1.css">
+        <link rel = "stylesheet" href = "./Resources/css/responsive.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script id="printdetails" type="text/x-handlebars-template">
+        <div id="sp">
+            <p>
+                hey! buddy your name:{{firstname}} {{lastname}}.
+            </p>
+            <p>
+                your Addhar number is : {{addharnumber}}
+            </p>
+            <p>
+                your mobile number is : {{mobilenumber}}
+            </p>
+        </div>
+    </script>
+    <title>Regestration Form</title>
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Travel<span>Site</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "item-form.html" class = "nav-link">upload</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "Registration.html" class = "nav-link">registration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Registration form</h1>
+                    <p>Registration on a travel blog site typically involves creating a user account by providing personal information such as a username, email address, and password. This allows users to create and save their own travel itineraries, access exclusive content and offers. It also allows the site to personalize the user experience and send updates and recommendations based on the user's travel interests.</p>
+                </div>
+            </div>
+        </header>
+        <div class="container122">
+            <div class="row">
+                <div class="col-10">
+                    <label for="ad">Addhar Number</label>
+                </div>
+                <div class="col-90">
+                    <input type="number" id="aadhar" placeholder="000-000-000-000">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="fname">First Name:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="mobile">Mobile:</label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="password">password:</label>
+                </div>
+                <div class="col-90">
+                    <input type="password" id="password" name="dob">
+                </div>
+            </div>
+            <center>
+                <button id="button" style="border-radius: 50px;">submit</button>
+            </center>
+        </div>
+        <div id="deta">
+        </div>
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Travel<span>Site</span>
+                    </a>
+                    <p class = "text">A travel blog is a website that features personal experiences, tips, and recommendations about traveling to different destinations, It includes articles, photos, videos and other multimedia content that can inspire and inform readers about the world.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "./Resources/js/items.js"></script>
+        <script src="./Resources/js/index.js"></script>
+        <script src="./Resources/js/itemsController.js"></script>
+        <script src = "./Resources/js/script.js"></script>
+        <script src="./Resources/js/form.js"></script>
+    </body>
+</html>
